@@ -1,0 +1,23 @@
+{
+  "name": "node-shot-userscript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "xiaopc",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --open",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-userscript": "^2.5.1"
+  },
+  "dependencies": {
+    "downloadjs": "^1.4.7",
+    "html-to-image": "^0.1.1",
+    "simmerjs": "^0.5.6"
+  }
+}
